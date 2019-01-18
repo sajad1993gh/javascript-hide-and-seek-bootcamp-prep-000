@@ -2,5 +2,6 @@ function getFirstSelector(selector){
   return document.querySelector(selector)
 }
 function nestedTarget(){
-  document.getElementById('app').querySelector('div.target')
+  return document.querySelector('#nested .target' )
 }
+function 
