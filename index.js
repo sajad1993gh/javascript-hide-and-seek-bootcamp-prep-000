@@ -15,7 +15,7 @@ function deepestChild() {
     nextNode = node.children[0];
   }
 
-  return node;
+  return nextNode;
 }
 
 function increaseRankBy(n) {
